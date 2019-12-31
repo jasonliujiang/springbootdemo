@@ -1,6 +1,6 @@
 package com.jason.integrationweb.json.controller;
 
-import com.jason.integrationweb.json.bean.User;
+import com.jason.integrationweb.json.bean.UserJson;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,10 +13,10 @@ import java.util.List;
 public class UserController {
     //@ResponseBody
     @GetMapping("/user")
-    public List<User> getAllUsers(){
-        List<User> users = new ArrayList<>();
+    public List<UserJson> getAllUsers(){
+        List<UserJson> users = new ArrayList<>();
         for (int i = 0;i<10;i++){
-            User user = new User();
+            UserJson user = new UserJson();
             user.setAddress("北京");
             user.setId(i);
             user.setUserName("jason"+i);

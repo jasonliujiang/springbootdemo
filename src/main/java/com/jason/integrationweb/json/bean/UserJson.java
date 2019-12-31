@@ -2,7 +2,7 @@ package com.jason.integrationweb.json.bean;
 
 import java.util.Date;
 
-public class User {
+public class UserJson {
     private Integer id;
     private String userName;
     private String address;
