@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 import java.util.Set;
 
-@RestController
+//@RestController
 public class HelloController {
     @GetMapping("/hello")
     public String hello(Model model){

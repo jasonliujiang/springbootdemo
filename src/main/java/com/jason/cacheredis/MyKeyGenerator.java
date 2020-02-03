@@ -11,7 +11,7 @@ import java.util.Arrays;
  *自定义Cache的key值
  * @author liujiang02
  */
-@Component
+//@Component
 public class MyKeyGenerator implements KeyGenerator {
     @Override
     public Object generate(Object o, Method method, Object... objects) {

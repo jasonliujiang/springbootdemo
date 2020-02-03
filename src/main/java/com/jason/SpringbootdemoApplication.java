@@ -7,7 +7,7 @@ import org.springframework.boot.web.servlet.ServletComponentScan;
 import org.springframework.cache.annotation.EnableCaching;
 
 @SpringBootApplication
-@EnableCaching
+//@EnableCaching
 //@MapperScan("com")//添加mapper扫描包
 //@ServletComponentScan(basePackages = "com.jason.integrationweb.servlet")
 public class SpringbootdemoApplication {

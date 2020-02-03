@@ -14,7 +14,7 @@ import java.util.Map;
  * @author liujiang02
  */
 
-@ControllerAdvice
+//@ControllerAdvice
 public class GlobalData {
     @ModelAttribute(value = "info")
     public Map<String,Object> mudata(){

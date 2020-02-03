@@ -7,7 +7,7 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
 @Service
-@CacheConfig(cacheNames = "c1")
+//@CacheConfig(cacheNames = "c1")
 public class UserService {
 
     //配置缓存，方法的参数为key,方法的返回值为value，如果方法的调用参数一样， 直接就会返回值而不会再调用这个方法了
